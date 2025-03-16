@@ -8,7 +8,7 @@ import {
     Collapsible,
     CollapsibleContent,
     CollapsibleTrigger,
-  } from "C:/Users/yash/Desktop/StudyMate/my-app/@/components/ui/collapsible.jsx"
+  } from "@/@/components/ui/collapsible.jsx"
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
   
@@ -32,7 +32,7 @@ function Feedback({params}) {
     <div className='p-10'>
         <h2 className='text-3xl font-bold text-green-500'>Congratulations!</h2>
         <h2 className='font-bold text-2xl'>Here is your interview feedback</h2>
-        <h2 className='text-primary text-lg my-3'>Your overall interview rating <strong>7/10</strong></h2>
+        <h2 className='text-primary text-lg my-3'>Your overall interview rating <strong>2/10</strong></h2>
         <h2 className='text-md text-gray-500'>Find below interview question with correct answer, Your answer and feedback for improvement</h2>
         {feedbackList&&feedbackList.map((item,index)=>(
             <Collapsible key={index} className='mt-7'>

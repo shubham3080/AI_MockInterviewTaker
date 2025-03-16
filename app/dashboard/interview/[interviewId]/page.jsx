@@ -5,8 +5,9 @@ import { db } from '../../../../utils/db'
 import { eq } from 'drizzle-orm'
 import Webcam from "react-webcam";
 import { WebcamIcon, Lightbulb } from 'lucide-react'
-import { Button } from 'C:/Users/yash/Desktop/StudyMate/my-app/@/components/ui/button.jsx'
+// import { Button } from 'C:/Users/yash/Desktop/StudyMate/my-app/@/components/ui/button.jsx'
 import Link from "next/link";
+import { Button } from '@/@/components/ui/button'
 function Interview({ params }) {
     const [interviewData, setInterviewData] = useState();
     const [webCamEnabled, setWebCamEnabled] = useState(false);
